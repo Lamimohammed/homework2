@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background: url(backer.jpg);
+    background: url(backe.jpg);
     background-size: cover
 }
 form{
@@ -28,13 +28,13 @@ h2{
     text-align: center;
     margin-top: 90px;
 }
-input[type="text"],[type="bassword"] {
+input[type="text"],[type="password"] {
 position: absolute;
 outline: none;
 border: none;
 width: 250px;
 height: 35px;
-border: 2px solid #0094ff;
+border: 3px solid #eaecee;
 background: none;
 padding: 5px;
 color: #fff;
@@ -45,7 +45,7 @@ input[type="text"]{
     left: 50px;
 }
 
-[ type="bassword"]{
+[ type="password"]{
     top: 210px;
     left: 50px;
 }
@@ -54,8 +54,8 @@ position: absolute;
 top: 305px;
 left: 110px;
 width: 130;
-height: 35px;
-background:#0077ff;
+height: 45px;
+background:#bb2def;
 border:none;
 outline:none;
 color: #fff;
